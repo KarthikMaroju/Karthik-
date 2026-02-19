@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "src"
+    }
+  ],
+  "settings": {
+    "yaml.customTags": [
+      "!reset mapping",
+      "!reset sequence",
+      "!reset scalar",
+      "!reset null",
+      "!override mapping",
+      "!override sequence"
+    ],
+    "go.testEnvVars": {
+      "AWS_PROFILE": "karthik-sandbox"
+    },
+    "go.buildTags": "integration",
+    "go.testFlags": ["-short", "-race"],
+    "go.testTimeout": "300s",
+    "makefile.configureOnOpen": false
+  }
+}
