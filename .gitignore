@@ -1,0 +1,13 @@
+/.cache/
+node_modules/
+.envrc
+.direnv/
+.DS_Store
+/result
+.idea
+
+.bin/
+
+*.log
+*.txt
+tmp/
